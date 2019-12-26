@@ -1,0 +1,10 @@
+<!--pages/upload/upload.wxml-->
+<button bindtap="uploadExcel" size="">上传excel文件</button>
+<button bindtap="openExcel">下载并打开excel文件</button>
+
+
+<button bindtap="uploadFile">上传文件</button>
+<image src="{{imgUrl}}"></image>
+
+<button bindtap="uploadVideo">上传视频</button>
+<video src="{{videoUrl}}"></video>

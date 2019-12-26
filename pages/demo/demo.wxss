@@ -1,0 +1,5 @@
+/* pages/demo/demo.wxss */
+.itemRoot {
+  background: gainsboro;
+  border: 1px solid red;
+}

@@ -1,0 +1,5 @@
+/* pages/demoyun/demoyun.wxss */
+.itemRoot {
+  background: gainsboro;
+  border: 1px solid red;
+}

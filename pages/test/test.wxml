@@ -1,0 +1,8 @@
+<!--pages/test/test.wxml-->
+<button bindtap="qiuhe">云函数获取加法</button>
+
+<button bindtap="getopenid">获取用户openid</button>
+
+<button bindtap="shujuku">数据库api获取数据</button>
+
+<button bindtap="yunhanshu">云函数获取数据</button>

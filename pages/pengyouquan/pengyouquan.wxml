@@ -1,0 +1,21 @@
+<!--pages/pengyouquan/pengyouquan.wxml-->
+<view class="header">
+  <text>朋友圈</text>
+  <view class="publish" bindtap="publish">发布</view>
+</view>
+<scroll-view scroll-y class="scroll">
+  <view class="main">
+    <block wx:for="{{dataList}}" wx:key="index">
+      <view class="itemRoot">
+        <view>
+          <text class="desc">{{item.desc}}</text>
+        </view>
+        <view class="imgRoot">
+          <block class="imgList" wx:for="{{item.fileIDs}}" wx:for-item="itemImg" wx:key="index">
+            <image class="img" src='{{itemImg}}' mode='aspectFill' data-img='{{[itemImg,item.fileIDs]}}' bindtap="previewImg"></image>
+          </block>
+        </view>
+      </view>
+    </block>
+  </view>
+</scroll-view>

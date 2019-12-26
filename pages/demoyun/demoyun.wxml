@@ -1,0 +1,9 @@
+<!--pages/demoyun/demoyun.wxml-->
+<button bindtap="getData">通过云函数获取数据</button>
+<view wx:for="{{dataList}}" wx:key="_id">
+  <view class="itemRoot">
+    <view>{{item.name}}</view>
+    <view>{{item.age}}</view>
+    <view>{{item.address}}</view>
+  </view>
+</view>

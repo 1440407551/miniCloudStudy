@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/pengyouquan/pengyouquan",
+    "pages/fabu/fabu",
+    "pages/demoyun/demoyun",
+    "pages/demo/demo",
+    "pages/upload/upload",
+    "pages/test/test",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+    "tabBar": {
+      "selectedColor": "#ff5777",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "/images/tabbar/home.png",
+          "selectedIconPath": "/images/tabbar/home_active.png"
+        },
+        {
+          "pagePath": "pages/pengyouquan/pengyouquan",
+          "text": "分类",
+          "iconPath": "/images/tabbar/category.png",
+          "selectedIconPath": "/images/tabbar/category_active.png"
+        }
+      ]
+    },
+  "sitemapLocation": "sitemap.json"
+}
